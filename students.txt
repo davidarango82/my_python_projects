@@ -1,0 +1,4 @@
+name,lastname,grade
+david,arango,4
+andrea,alvarez,3
+john,perez,2
