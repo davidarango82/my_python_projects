@@ -1,4 +1,5 @@
 # Added this locally
+
 s = input("input a score between 0 and 1 to get a grade: ")
 
 def computegrade(score):
