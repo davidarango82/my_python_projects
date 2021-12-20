@@ -7,6 +7,7 @@ def computegrade(score):
         score = float(score)
         if not(0 <= score < 1):
             return "Bad score"
+
         if score >= 0.9:
             grade = "A"
         elif score >= 0.8:
@@ -17,6 +18,7 @@ def computegrade(score):
             grade = "D"
         else:
             grade = "F"
+
         return grade
     except:
         return "Bad score"
